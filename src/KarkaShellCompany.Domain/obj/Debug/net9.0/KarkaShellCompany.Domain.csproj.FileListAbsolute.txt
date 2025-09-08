@@ -1,0 +1,17 @@
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.Domain.deps.json
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.Domain.runtimeconfig.json
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.Domain.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.Domain.pdb
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.ServiceDefaults.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\bin\Debug\net9.0\KarkaShellCompany.ServiceDefaults.pdb
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.csproj.AssemblyReference.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.AssemblyInfoInputs.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.AssemblyInfo.cs
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShe.1B3DC799.Up2Date
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\refint\KarkaShellCompany.Domain.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.pdb
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\KarkaShellCompany.Domain.genruntimeconfig.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Domain\obj\Debug\net9.0\ref\KarkaShellCompany.Domain.dll

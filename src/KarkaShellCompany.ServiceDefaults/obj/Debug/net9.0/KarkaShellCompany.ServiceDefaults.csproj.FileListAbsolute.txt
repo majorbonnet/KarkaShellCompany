@@ -1,0 +1,12 @@
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\bin\Debug\net9.0\KarkaShellCompany.ServiceDefaults.deps.json
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\bin\Debug\net9.0\KarkaShellCompany.ServiceDefaults.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\bin\Debug\net9.0\KarkaShellCompany.ServiceDefaults.pdb
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.AssemblyInfo.cs
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\refint\KarkaShellCompany.ServiceDefaults.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\KarkaShellCompany.ServiceDefaults.pdb
+C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.ServiceDefaults\obj\Debug\net9.0\ref\KarkaShellCompany.ServiceDefaults.dll

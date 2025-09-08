@@ -1,0 +1,6 @@
+@KarkaShellCompany.WebApi_HostAddress = http://localhost:5216
+
+GET {{KarkaShellCompany.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

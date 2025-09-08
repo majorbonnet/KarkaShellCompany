@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sZUQDF2VHHY=",
+  "dgSpecHash": "9+JhwoiYvmk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.Domain\\KarkaShellCompany.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.Domain\\KarkaShellCompany.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bmjas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\bmjas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

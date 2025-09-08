@@ -17,15 +17,16 @@ using System.Reflection;
     "xt\\"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", ("C:\\Users\\bmjas\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\tools\\e" +
     "xt\\bin\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "KarkaShellCompany.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\bmjas\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.4.1\\tools\\Aspire.Da" +
     "shboard.exe"))]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", ("C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\ob" +
+    "j\\"))]
 [assembly: System.Reflection.AssemblyCompanyAttribute("KarkaShellCompany.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77390160815e3e87852ca09572d3fe10c0b1cd64")]
 [assembly: System.Reflection.AssemblyProductAttribute("KarkaShellCompany.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KarkaShellCompany.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

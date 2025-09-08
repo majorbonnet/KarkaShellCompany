@@ -9,5 +9,5 @@ namespace Projects;
 public class KarkaShellCompany_WebApi : global::Aspire.Hosting.IProjectMetadata
 #pragma warning restore CS8981
 {
-    public string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.WebApi\KarkaShellCompany.WebApi.csproj""";
+    public string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.WebApi\KarkaShellCompany.WebApi.csproj""";
 }

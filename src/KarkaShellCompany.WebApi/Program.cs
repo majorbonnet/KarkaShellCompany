@@ -1,10 +1,17 @@
+using KarkaShellCompany.Domain;
+using KarkaShellCompany.Domain.Features.Items;
+using KarkaShellCompany.Domain.Gw2Api;
+using KarkaShellCompany.Domain.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.AddServiceDefaults();
-builder.AddNpgsqlDbContext<KarkaShellCompany.Domain.KarkaShellCompanyContext>("karkashellco");
+
+builder.AddNpgsqlDbContext<KarkaShellCompanyContext>("karkashellco");
+builder.Services.AddScoped<IDispatcher, Dispatcher>();
 
 var app = builder.Build();
 
@@ -16,28 +23,15 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.MapGet("/items", async (string query, IDispatcher dispatcher) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    var items = await dispatcher.QueryAsync<GetItems, IEnumerable<Item>>(new GetItems() { Query = query });
+    return Results.Ok(items);
+});
 
-app.MapGet("/weatherforecast", () =>
+app.MapPatch("/items", async (IDispatcher dispatcher) =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    await dispatcher.SendAsync(new RefreshItems());
+});
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

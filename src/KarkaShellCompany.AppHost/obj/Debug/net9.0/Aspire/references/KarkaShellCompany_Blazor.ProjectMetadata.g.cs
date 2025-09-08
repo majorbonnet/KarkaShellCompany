@@ -9,5 +9,5 @@ namespace Projects;
 public class KarkaShellCompany_Blazor : global::Aspire.Hosting.IProjectMetadata
 #pragma warning restore CS8981
 {
-    public string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.Blazor\KarkaShellCompany.Blazor.csproj""";
+    public string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\KarkaShellCompany.Blazor.csproj""";
 }

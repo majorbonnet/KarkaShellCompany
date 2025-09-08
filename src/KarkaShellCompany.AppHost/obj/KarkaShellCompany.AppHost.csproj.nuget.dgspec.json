@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj": {}
+    "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj": {
+    "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
+        "projectUniqueName": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
         "projectName": "KarkaShellCompany.AppHost",
-        "projectPath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
+        "projectPath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
         "packagesPath": "C:\\Users\\bmjas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\obj\\",
+        "outputPath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

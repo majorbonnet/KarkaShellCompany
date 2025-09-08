@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ho6F1pzECiw=",
+  "dgSpecHash": "cp11ATSKb08=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.Blazor\\KarkaShellCompany.Blazor.csproj",
+  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.Blazor\\KarkaShellCompany.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bmjas\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\9.7.0\\microsoft.extensions.ambientmetadata.application.9.7.0.nupkg.sha512",
     "C:\\Users\\bmjas\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\9.7.0\\microsoft.extensions.compliance.abstractions.9.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xCbudSLxdko=",
+  "dgSpecHash": "9OCZOJDsvMA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\bmjas\\source\\personal\\KarkaShellCompany\\src\\KarkaShellCompany.AppHost\\KarkaShellCompany.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bmjas\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.4.1\\aspire.dashboard.sdk.win-x64.9.4.1.nupkg.sha512",
     "C:\\Users\\bmjas\\.nuget\\packages\\aspire.hosting\\9.4.2\\aspire.hosting.9.4.2.nupkg.sha512",

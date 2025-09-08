@@ -10,5 +10,5 @@ public class KarkaShellCompany_AppHost
 #pragma warning restore CS8981
 {
     private KarkaShellCompany_AppHost() { }
-    public static string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\KarkaShellCompany.AppHost""";
+    public static string ProjectPath => """C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost""";
 }

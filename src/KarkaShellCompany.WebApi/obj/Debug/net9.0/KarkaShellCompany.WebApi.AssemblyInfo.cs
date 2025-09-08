@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KarkaShellCompany.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77390160815e3e87852ca09572d3fe10c0b1cd64")]
 [assembly: System.Reflection.AssemblyProductAttribute("KarkaShellCompany.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KarkaShellCompany.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

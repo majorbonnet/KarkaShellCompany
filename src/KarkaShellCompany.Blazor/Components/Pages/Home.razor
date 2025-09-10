@@ -1,7 +1,11 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Items</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<ul>
+    @foreach(var item in _items)
+    {
+        <li>@item</li>
+    }
+</ul>

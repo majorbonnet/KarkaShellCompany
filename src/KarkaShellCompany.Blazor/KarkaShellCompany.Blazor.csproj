@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KarkaShellCompany.ServiceDefaults\KarkaShellCompany.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\KarkaShellCompany.Domain\KarkaShellCompany.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

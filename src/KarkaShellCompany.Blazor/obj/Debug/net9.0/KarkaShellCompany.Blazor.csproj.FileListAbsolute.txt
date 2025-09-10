@@ -235,3 +235,9 @@ C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\ob
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\obj\Debug\net9.0\KarkaShellCompany.Blazor.pdb
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\obj\Debug\net9.0\KarkaShellCompany.Blazor.genruntimeconfig.cache
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\obj\Debug\net9.0\ref\KarkaShellCompany.Blazor.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\KarkaShellCompany.Domain.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.Blazor\bin\Debug\net9.0\KarkaShellCompany.Domain.pdb

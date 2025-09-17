@@ -41,7 +41,7 @@ namespace KarkaShellCompany.Domain.Features.Items
                     var newItems = await gw2ItemInfoRequest.ExecuteAsync(batch);
                     foreach (var item in newItems)
                     {
-                        _context.Items.Add(new Item { Id = item.Id, ItemJson = System.Text.Json.JsonSerializer.Serialize(item) });
+                        _context.Items.Add(new Item { Id = item.Id, ItemJson = System.Text.Json.JsonSerializer.Serialize(item), Name = item.Name, Type = item.Type });
                     }
 
                     await _context.SaveChangesAsync();

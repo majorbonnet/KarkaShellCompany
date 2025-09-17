@@ -5,7 +5,7 @@ namespace KarkaShellCompany.Domain;
 
 public class KarkaShellCompanyContext : DbContext
 {
-    public KarkaShellCompanyContext(DbContextOptions<KarkaShellCompanyContext> options)
+    public KarkaShellCompanyContext(DbContextOptions options)
         : base(options)
     {
     }
@@ -17,5 +17,11 @@ public class KarkaShellCompanyContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<Item>(e =>
+        {
+            e.Property(i => i.ItemJson)
+               .HasColumnType("jsonb");
+        });
     }
 }

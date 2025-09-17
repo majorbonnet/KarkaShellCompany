@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[9.4.1, )"
             },
+            "Aspire.Hosting.Keycloak": {
+              "target": "Package",
+              "version": "[9.4.2-preview.1.25428.12, )"
+            },
             "Aspire.Hosting.Orchestration.win-x64": {
               "target": "Package",
               "version": "[9.4.1, )",
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

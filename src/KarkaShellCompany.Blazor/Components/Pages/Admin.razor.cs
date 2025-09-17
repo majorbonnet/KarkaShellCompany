@@ -1,8 +1,9 @@
+using Microsoft.AspNetCore.Components;
+using KarkaShellCompany.Blazor.Services;
+
 namespace KarkaShellCompany.Blazor.Components.Pages;
 
-using Microsoft.AspNetCore.Components;
-
-public partial class Home
+public partial class Admin
 {
     [Inject]
     public required AdminService _adminService { get; set; }
@@ -22,5 +23,10 @@ public partial class Home
         {
             _isLoading = false;
         }
+    }
+
+    private async void RefreshItems()
+    {
+        await _adminService.RefreshItemsAsync();
     }
 }

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.1" />
 
@@ -12,11 +12,13 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.1" />
+    <PackageReference Include="Aspire.Hosting.Keycloak" Version="9.4.2-preview.1.25428.12" />
     <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="9.4.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KarkaShellCompany.Blazor\KarkaShellCompany.Blazor.csproj" />
+    <ProjectReference Include="..\KarkaShellCompany.MigrationService\KarkaShellCompany.MigrationService.csproj" />
     <ProjectReference Include="..\KarkaShellCompany.WebApi\KarkaShellCompany.WebApi.csproj" />
   </ItemGroup>
 

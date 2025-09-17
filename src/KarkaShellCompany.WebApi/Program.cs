@@ -2,6 +2,8 @@ using KarkaShellCompany.Domain;
 using KarkaShellCompany.Domain.Features.Items;
 using KarkaShellCompany.Domain.Gw2Api;
 using KarkaShellCompany.Domain.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.AddServiceDefaults();
 
-builder.AddNpgsqlDbContext<KarkaShellCompanyContext>("karkashellco");
+var connectionString = builder.Configuration.GetConnectionString("karkashellco");
+builder.Services.AddDbContextFactory<KarkaShellCompanyContext>(options =>
+{
+    options.UseNpgsql(connectionString)
+        .UseSnakeCaseNamingConvention()
+        .ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+});
+
+builder.EnrichNpgsqlDbContext<KarkaShellCompanyContext>();
+
 builder.Services.AddScoped<IDispatcher, Dispatcher>();
 
 var app = builder.Build();

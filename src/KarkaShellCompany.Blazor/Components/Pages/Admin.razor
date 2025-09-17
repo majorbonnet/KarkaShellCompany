@@ -1,0 +1,15 @@
+﻿@page "/admin"
+
+@rendermode InteractiveServer
+
+<PageTitle>Admin</PageTitle>
+
+
+<button class="btn btn-primary" @onclick="RefreshItems">Refresh Items</button>
+<ul>
+    @foreach (var item in _items)
+    {
+        <li>@item.Id - @item.Name</li>
+    }
+</ul>
+

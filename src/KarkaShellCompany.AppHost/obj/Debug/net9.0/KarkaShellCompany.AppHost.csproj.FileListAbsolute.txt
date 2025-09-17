@@ -267,3 +267,5 @@ C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\o
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.pdb
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.genruntimeconfig.cache
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\ref\KarkaShellCompany.AppHost.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\KarkaShellCompany_MigrationService.ProjectMetadata.g.cs
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.Keycloak.dll

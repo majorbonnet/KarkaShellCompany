@@ -1,9 +1,8 @@
-using System.Runtime.CompilerServices;
 using KarkaShellCompany.Domain;
 using KarkaShellCompany.Domain.Features.Items;
 using KarkaShellCompany.Domain.Models;
 
-namespace KarkaShellCompany.Blazor;
+namespace KarkaShellCompany.Blazor.Services;
 
 public class AdminService
 {

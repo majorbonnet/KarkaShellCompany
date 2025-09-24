@@ -1,10 +1,28 @@
 ﻿@page "/usersettings"
-@using Microsoft.AspNetCore.Authorization
-@attribute [Authorize]
+@rendermode InteractiveServer
 
-<h3>UserSettings</h3>
+<h3>User Settings</h3>
 
-Your settings
-@code {
-
+<h4>Accounts</h4>
+<table>
+@foreach (var account in _accounts)
+{
+    <tr>
+        <td>@account.Name</td>
+        <td>@account.ApiKey</td>
+        <td><button type="button">Delete</button></td>
+    </tr>
 }
+    <tr>
+        <td>
+            <InputText @bind-Value="_newAccountName" placeholder="Name"></InputText>
+        </td>
+        <td>
+            <InputText @bind-Value="_newAccountApiKey" placeholder="API Key"></InputText>
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+<button class="btn btn-primary" @onclick="AddAccount">Add</button>

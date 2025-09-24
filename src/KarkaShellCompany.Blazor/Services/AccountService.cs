@@ -1,4 +1,6 @@
 ﻿using KarkaShellCompany.Domain;
+using KarkaShellCompany.Domain.Features.Accounts;
+using KarkaShellCompany.Domain.Models;
 
 namespace KarkaShellCompany.Blazor.Services
 {
@@ -13,14 +15,16 @@ namespace KarkaShellCompany.Blazor.Services
 
         public async Task AddAccountAsync(string name, string apiKey)
         {
-            var command = new Domain.Features.Accounts.AddAccount(name, apiKey);
-            await _dispatcher.SendAsync(command);
+            var command = new AddAccount(name, apiKey);
+            await _dispatcher.SendAsync<AddAccount, Account>(command);
         }
 
-        public async Task GetAccountsAsync()
+        public async Task<List<Account>> GetAccountsAsync()
         {
-            var query = new Domain.Features.Accounts.GetAccounts();
-            var accounts = await _dispatcher.QueryAsync<Domain.Features.Accounts.GetAccounts, List<Domain.Models.Account>>(query);
+            var query = new GetAccounts();
+            var accounts = await _dispatcher.QueryAsync<GetAccounts, List<Account>>(query);
+
+            return accounts;
         }
     }
 }

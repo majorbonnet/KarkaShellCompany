@@ -139,6 +139,7 @@ C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\b
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\KarkaShellCompany.AppHost.pdb
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.dll
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.AppHost.dll
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.Keycloak.dll
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.PostgreSQL.dll
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\HealthChecks.NpgSql.dll
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\HealthChecks.Uris.dll
@@ -258,6 +259,7 @@ C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\o
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.AssemblyInfo.cs
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.csproj.CoreCompileInputs.cache
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\KarkaShellCompany_Blazor.ProjectMetadata.g.cs
+C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\KarkaShellCompany_MigrationService.ProjectMetadata.g.cs
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\KarkaShellCompany_WebApi.ProjectMetadata.g.cs
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.sourcelink.json
@@ -267,5 +269,3 @@ C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\o
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.pdb
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\KarkaShellCompany.AppHost.genruntimeconfig.cache
 C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\ref\KarkaShellCompany.AppHost.dll
-C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\obj\Debug\net9.0\Aspire\references\KarkaShellCompany_MigrationService.ProjectMetadata.g.cs
-C:\Users\bmjas\source\personal\KarkaShellCompany\src\KarkaShellCompany.AppHost\bin\Debug\net9.0\Aspire.Hosting.Keycloak.dll

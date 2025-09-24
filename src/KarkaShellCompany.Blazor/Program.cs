@@ -1,18 +1,23 @@
+using KarkaShellCompany.Blazor;
 using KarkaShellCompany.Blazor.Components;
 using KarkaShellCompany.Blazor.Services;
 using KarkaShellCompany.Domain;
 using KarkaShellCompany.Domain.Extensions;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using System.Configuration;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.AddServiceDefaults();
+
+
 
 var connectionString = builder.Configuration.GetConnectionString("karkashellco");
 builder.Services.AddDbContextFactory<KarkaShellCompanyContext>(options =>
@@ -24,8 +29,10 @@ builder.Services.AddDbContextFactory<KarkaShellCompanyContext>(options =>
 
 builder.EnrichNpgsqlDbContext<KarkaShellCompanyContext>();
 
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddDomainServices();
 builder.Services.AddScoped<AdminService>();
+builder.Services.AddScoped<AccountService>();
 
 builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
     .AddKeycloakOpenIdConnect(
@@ -39,6 +46,22 @@ builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
             options.ResponseType = OpenIdConnectResponseType.Code;
             options.RequireHttpsMetadata = false;
             options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            options.SaveTokens = true;
+            options.GetClaimsFromUserInfoEndpoint = true;
+
+            options.Events.OnUserInformationReceived = context =>
+            {
+                if (context.Principal?.Identity is ClaimsIdentity identity)
+                {
+                    if (context.User.RootElement.TryGetProperty("preferred_username", out var username))
+                    {
+                        identity.AddClaim(new Claim(ClaimTypes.Name, username.ToString()));
+                    }
+                }
+
+                // You can inspect and modify the user claims here if needed
+                return Task.CompletedTask;
+            };
         }
     )
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme);
@@ -46,7 +69,8 @@ builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
 builder.Services.AddCascadingAuthenticationState();
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
+builder.Services
+    .AddRazorComponents()
     .AddInteractiveServerComponents();
 
 
@@ -64,6 +88,14 @@ app.UseHttpsRedirection();
 app.UseAntiforgery();
 
 app.MapStaticAssets();
+
+app.MapGet("/login", () => TypedResults.Challenge(new AuthenticationProperties { RedirectUri = "/" }))
+        .AllowAnonymous();
+
+app.MapGet("/logout", () => TypedResults.SignOut(new AuthenticationProperties { RedirectUri = "/",  },
+        [CookieAuthenticationDefaults.AuthenticationScheme, OpenIdConnectDefaults.AuthenticationScheme]));
+
+
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

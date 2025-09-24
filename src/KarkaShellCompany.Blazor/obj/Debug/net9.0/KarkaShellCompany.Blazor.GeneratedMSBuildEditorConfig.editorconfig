@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bmjas/source/personal/KarkaShellCompany/src/KarkaShellCompany.Blazor/Components/Layout/AccessControl.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWNjZXNzQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bmjas/source/personal/KarkaShellCompany/src/KarkaShellCompany.Blazor/Components/Pages/Admin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -75,11 +79,3 @@ build_metadata.AdditionalFiles.CssScope = b-1oq7te2pfz
 [C:/Users/bmjas/source/personal/KarkaShellCompany/src/KarkaShellCompany.Blazor/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-f8p0skyrgd
-
-[C:/Users/bmjas/source/personal/KarkaShellCompany/src/KarkaShellCompany.Blazor/Components/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/bmjas/source/personal/KarkaShellCompany/src/KarkaShellCompany.Blazor/Components/Pages/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 

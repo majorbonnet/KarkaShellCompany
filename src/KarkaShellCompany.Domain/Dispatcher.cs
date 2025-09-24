@@ -11,6 +11,7 @@ namespace KarkaShellCompany.Domain
     {
         Task<TResponse> QueryAsync<TRequest, TResponse>(TRequest request) where TRequest : class;
         Task SendAsync<TRequest>(TRequest request) where TRequest : class;
+        Task SendAsync<TRequest, TResponse>(TRequest request) where TRequest : class;
     }
 
     public class Dispatcher : IDispatcher
@@ -24,7 +25,7 @@ namespace KarkaShellCompany.Domain
 
         public async Task<TResponse> QueryAsync<TRequest, TResponse>(TRequest request) where TRequest : class
         {
-            var handler = _serviceProvider.GetService(typeof(IRequestHandler<TRequest, TResponse>)) as IRequestHandler<TRequest, TResponse>;
+            var handler = _serviceProvider.GetRequiredService<IRequestHandler<TRequest, TResponse>>();
 
             if (handler is null)
             {
@@ -35,7 +36,19 @@ namespace KarkaShellCompany.Domain
         }
         public async Task SendAsync<TRequest>(TRequest request) where TRequest : class
         {
-            var handler = _serviceProvider.GetService(typeof(IRequestHandler<TRequest>)) as IRequestHandler<TRequest>;
+            var handler = _serviceProvider.GetRequiredService<IRequestHandler<TRequest>>();
+
+            if (handler is null)
+            {
+                throw new InvalidOperationException($"No handler registered for request type {typeof(TRequest).Name}");
+            }
+
+            await handler.HandleAsync(request);
+        }
+
+        public async Task SendAsync<TRequest, TResponse>(TRequest request) where TRequest : class
+        {
+            var handler = _serviceProvider.GetRequiredService<IRequestHandler<TRequest, TResponse>>();
 
             if (handler is null)
             {

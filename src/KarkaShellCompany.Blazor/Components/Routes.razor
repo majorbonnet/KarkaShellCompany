@@ -1,4 +1,6 @@
-﻿<Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState>
+﻿@using KarkaShellCompany.Blazor.Components.Pages
+
+<Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState>
     <Router AppAssembly="typeof(Program).Assembly">
         <Found Context="routeData">
             <Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)">
@@ -9,7 +11,6 @@
                     <RedirectToLogin></RedirectToLogin>
                 </NotAuthorized>
             </Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView>
-            <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
             <FocusOnNavigate RouteData="routeData" Selector="h1" />
         </Found>
     </Router>

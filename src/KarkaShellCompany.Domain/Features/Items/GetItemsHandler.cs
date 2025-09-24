@@ -1,4 +1,5 @@
 using KarkaShellCompany.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace KarkaShellCompany.Domain.Features.Items
 {
@@ -13,7 +14,7 @@ namespace KarkaShellCompany.Domain.Features.Items
 
         public async Task<IEnumerable<Item>> HandleAsync(GetItems request)
         {
-            return await Task.FromResult(_context.Items.AsEnumerable());
+            return await _context.Items.ToListAsync();
         }
     }
 }

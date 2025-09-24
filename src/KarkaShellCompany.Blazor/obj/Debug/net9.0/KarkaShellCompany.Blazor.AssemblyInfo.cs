@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KarkaShellCompany.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c63894b857463e554c4f84660aebe9c08b41160")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f189ce81ef7176a760fc21904fcdaefef59ec27d")]
 [assembly: System.Reflection.AssemblyProductAttribute("KarkaShellCompany.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KarkaShellCompany.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

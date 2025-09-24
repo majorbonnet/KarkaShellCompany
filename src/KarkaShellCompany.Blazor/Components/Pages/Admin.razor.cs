@@ -1,31 +1,27 @@
 using Microsoft.AspNetCore.Components;
 using KarkaShellCompany.Blazor.Services;
+using KarkaShellCompany.Domain.Models;
 
 namespace KarkaShellCompany.Blazor.Components.Pages;
 
 public partial class Admin
 {
+    private IEnumerable<Item> _items = Enumerable.Empty<Item>();
+
     [Inject]
     public required AdminService _adminService { get; set; }
 
-    private bool _isLoading;
-
-    IEnumerable<Domain.Models.Item> _items = Array.Empty<Domain.Models.Item>();
-
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        _isLoading = true;
-        try
+        // TODO: load total count, last updated, and paging instead of showing full list
+        if (firstRender)
         {
-            _items = await _adminService.GetItemsAsync(string.Empty);
-        }
-        finally
-        {
-            _isLoading = false;
+            //_items = await _adminService.GetItemsAsync(string.Empty);
+            StateHasChanged();
         }
     }
 
-    private async void RefreshItems()
+    private async Task RefreshItems()
     {
         await _adminService.RefreshItemsAsync();
     }
